@@ -40,6 +40,7 @@ const TaskForm = ({ addTask, taskToEdit, updateTask }) => {
       className="flex flex-col justify-center items-center px-5 my-4 mx-auto w-3/6 h-96 bg-gray-300 rounded shadow-md"
     >
       <div className="mb-4 w-full">
+        <h1 className="text-2xl text-gray-700 font-bold text-center">Task Form</h1>
         <label className="block text-gray-700 font-semibold">Title</label>
         <input
           type="text"
