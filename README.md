@@ -1,8 +1,19 @@
-# React + Vite
+# Task Manager SPA
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a task management Single Page Application (SPA) built with React, Vite, and Tailwind CSS.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Create, update, delete, and list tasks
+- Persistent storage using localStorage
+- Routing with `react-router-dom`
+- Styled with Tailwind CSS
+
+## How to Run
+
+1. Clone the repository:
+   ```sh
+   git clone <repository-url>
+   cd task-manager
+2. Install dependencies: npm install
+3. Start the development server: npm run dev
